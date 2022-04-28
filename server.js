@@ -1,8 +1,8 @@
 let http = require("http");
 let users = [
-  { id: 1111111, name: "alan1111" },
-  { id: 2222222, name: "alan2222" },
-  { id: 3333333, name: "alan33333" },
+  { id: 1, name: "alan1111" },
+  { id: 2, name: "alan2222" },
+  { id: 3, name: "alan33333" },
 ];
 let server = http.createServer(function (req, res) {
   res.setHeader("Access-Control-Allow-Origin", "*");
